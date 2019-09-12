@@ -1,27 +1,27 @@
 <!DOCTYPE HTML>
 <!--
-	Solid State by HTML5 UP
+	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Solid State Blog</title>
+		<title>Las Vegas Sports Clinic</title>
 		<meta charset="utf-8" />
-		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-		<link rel="stylesheet" href="../assets/css/main-blog.css" />
-		<link rel="stylesheet" href="../assets/css/pagestyle.css" />
-		<link rel="stylesheet" href="../assets/css/blog.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="../assets/css/blog.css" />
 		<link rel="stylesheet" href="../assets/css/pre.css" />
 		
-		<!-- uses google-code-prettify for syntax highlighting 
-		     see https://github.com/google/code-prettify/ for more info -->
-		<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+		<!-- uses google-code-prettify for syntax highlighting
+			 see https://github.com/google/code-prettify for more info -->
+		<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js">
+		</script>
 		
 		<!-- uses MathJax CDC for LaTeX support
 		     see http://docs.mathjax.org/en/latest/start.html for more info -->
-		<!-- <script type="text/x-mathjax-config">
+		<script type="text/x-mathjax-config">
 			MathJax.Hub.Config
 			({
 				extensions: ["tex2jax.js"],
@@ -37,48 +37,49 @@
 		</script>
 		<script type="text/javascript" 
 			    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
-		</script> -->
+		</script>
 	</head>
 	<body class="is-preload" onload="setup()">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+		<!-- Wrapper -->
+			<div id="wrapper">
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="https://lvsportsclinic.com/blog"><b><strong>LAS VEGAS SPORTS CLINIC BLOG</strong></b></a>
-				
+						<a href="https://lvsportsclinic.com" class="logo"><strong>LAS VEGAS SPORTS CLINIC</strong>
 						<nav>
-							<noselect><a href="#menu">Menu</a></noselect>
+							<a href="#menu">Menu</a>
 						</nav>
 					</header>
 				
 				<!-- Menu -->
 					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-				
-							<ul class="links">
-								<li><a href="https://lvsportsclinic.com">Home</a></li>
-								<li><a href="https://lvsportsclinic.com/blog">Blog</a></li>
-								<li><a href="https://talkphr.com">Patient Portal</a></li>
-								<li><a href="#">Wiki</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
+						<ul class="links">
+							<li><a href="https://lvsportsclinic.com">Home</a></li>
+							<li><a href="https://lvsportsclinic.com/blog">Blog</a></li>
+							<li><a href="https://talkphr.com">Patient Portal</a></li>
+							<li><a href="../services.html">Services</a></li>
+							<li><a href="#">Wiki</a></li>
+						</ul>
+						<!--<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>-->
 					</nav>
 
-				<!-- Wrapper -->
-				<section id="wrapper">
-					<header>
+				<!-- Main -->
+				<div id="main" class="alt">
+					<!-- One -->
+					<section id="one">
 						<div class="inner">
-							<div class="logo"><span class="icon fa-gem"></span></div>
-							<h2>Post 1: My first blog post</h2>
-						</div>
-					</header>
+							<header>
+								<center>
+									<div class="inner">
+										<div class="logo"><h2><span class="icon fa-gem"></span> Post 1: My first blog post</h2></div>
+									</div>
+								</center>
+							</header>
 				
-					<!-- Content -->
-					<div class="wrapper">
-						<div class="inner">
+							<!-- Content -->
 							<div class="content">
 								<textarea class="markdown">
 									## This is a heading
@@ -89,16 +90,7 @@
 									You can do $\LaTeX$ equations thanks to MathJaX. Both `$..$` and `\(..\)` work for inline equations, and both `$$..$$` and `\[..\]` work for displayed equations (note inside markdown/showdown blocks use `\\(..\\)` and `\\[..\\]`, or the `$` syntax). Eg. When \\(a \ne 0\\), there are two solutions to $ax^2 + bx + c = 0$ and they are:
 				
 									$$x = \frac{-b \pm \sqrt{b^2-4ac}}{2a}$$
-								</textarea>
-							</div>
-						</div>
-					</div>
 				
-					<!-- Four -->
-					<section class="wrapper style3">
-						<div class="inner">
-							<div class="content">
-								<textarea class="markdown">
 									You can write your blog posts using Markdown. The easiest way to create a new page is to copy an old page, just use:
 				
 										nsm cp blog/post01 blog/postx
@@ -120,15 +112,7 @@
 									1. list item 1
 									2. list item 2
 									3. list item 3
-								</textarea>
-							</div>
-						</div>
-					</section>
 				
-					<section id="four" class="wrapper spotlight style2">
-						<div class="inner">
-							<div class="content">
-								<textarea class="markdown">
 									You can do links using **\[text\]\(url\)**. You can do images using **\[alt text\]\(img url\)**.
 				
 									Tables aren't part of the core Markdown spec, but they are part of GFM and Showdown supports them by turning on the option **tables**.
@@ -174,7 +158,7 @@
 									You can also do syntax highlighting outside of markdown blocks using [Google Code Prettify](https://github.com/google/code-prettify), Eg.:
 								</textarea>
 				
-								<pre class="prettyprint linenums">
+								<pre class="prettyprint linenums background">
 									#include &lt;cstdio>
 									#include &lt;iostream>
 				
@@ -190,7 +174,7 @@
 									To do a <b>pre</b> block without syntax highlighting outside markdown blocks use class <b>border</b>, Eg.:
 								</p>
 				
-								<pre class="border">
+								<pre class="background">
 									#include &lt;cstdio>
 									#include &lt;iostream>
 				
@@ -204,27 +188,35 @@
 							</div>
 						</div>
 					</section>
-				</section>
+				</div>
 
 				<!-- Footer -->
-					<section id="footer">
+					<footer id="footer">
 						<div class="inner">
-							<div class="footer">
-								<noselect>
-									<div class="footer_text"><b>&copy;&nbsp;2018 - <script>document.write(new Date().getFullYear()%100)</script> <a class="footer_item" href="https://lvsportsclinic.com/">Las Vegas Sports Clinic</a></b></div>
-								</noselect>
-							</div>
+							<center>
+								<ul class="icons">
+									<li><a href="https://twitter.com/lvsportsclinic" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<!--<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>-->
+									<li><a href="https://github.com/lvsportsclinic" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								</ul>
+								<ul class="copyright">
+									<li><b>&copy; 2018-<script>document.write(new Date().getFullYear()%100)</script> <a href="https://lvsportsclinic.com">Las Vegas Sports Clinic</a></b></li>
+								</ul>
+							</center>
 						</div>
-					</section>
+					</footer>
 			</div>
 
 		<!-- Scripts -->
 			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
 			<script src="../assets/js/jquery.scrollex.min.js"></script>
 			<script src="../assets/js/browser.min.js"></script>
 			<script src="../assets/js/breakpoints.min.js"></script>
 			<script src="../assets/js/util.js"></script>
-			<script src="../assets/js/main-blog.js"></script>
+			<script src="../assets/js/main.js"></script>
 			<script src="../assets/js/process_pre_tags.js"></script>
 			<script src='../assets/js/process_md_blocks.js'></script>
 			<script src="../assets/js/showdown.min.js"></script>

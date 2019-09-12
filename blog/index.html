@@ -1,27 +1,27 @@
 <!DOCTYPE HTML>
 <!--
-	Solid State by HTML5 UP
+	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
 	<head>
-		<title>Solid State Blog</title>
+		<title>Las Vegas Sports Clinic</title>
 		<meta charset="utf-8" />
-		<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-		<link rel="stylesheet" href="../assets/css/main-blog.css" />
-		<link rel="stylesheet" href="../assets/css/pagestyle.css" />
-		<link rel="stylesheet" href="../assets/css/blog.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="../assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="../assets/css/blog.css" />
 		<link rel="stylesheet" href="../assets/css/pre.css" />
 		
-		<!-- uses google-code-prettify for syntax highlighting 
-		     see https://github.com/google/code-prettify/ for more info -->
-		<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js"></script>
+		<!-- uses google-code-prettify for syntax highlighting
+			 see https://github.com/google/code-prettify for more info -->
+		<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js">
+		</script>
 		
 		<!-- uses MathJax CDC for LaTeX support
 		     see http://docs.mathjax.org/en/latest/start.html for more info -->
-		<!-- <script type="text/x-mathjax-config">
+		<script type="text/x-mathjax-config">
 			MathJax.Hub.Config
 			({
 				extensions: ["tex2jax.js"],
@@ -37,48 +37,48 @@
 		</script>
 		<script type="text/javascript" 
 			    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
-		</script> -->
+		</script>
 	</head>
 	<body class="is-preload" onload="setup()">
 
-		<!-- Page Wrapper -->
-			<div id="page-wrapper">
+		<!-- Wrapper -->
+			<div id="wrapper">
 				<!-- Header -->
 					<header id="header" class="alt">
-						<a href="https://lvsportsclinic.com/blog"><b><strong>LAS VEGAS SPORTS CLINIC BLOG</strong></b></a>
-				
+						<a href="https://lvsportsclinic.com" class="logo"><strong>LAS VEGAS SPORTS CLINIC</strong>
 						<nav>
-							<noselect><a href="#menu">Menu</a></noselect>
+							<a href="#menu">Menu</a>
 						</nav>
 					</header>
 				
 				<!-- Menu -->
 					<nav id="menu">
-						<div class="inner">
-							<h2>Menu</h2>
-				
-							<ul class="links">
-								<li><a href="https://lvsportsclinic.com">Home</a></li>
-								<li><a href="https://lvsportsclinic.com/blog">Blog</a></li>
-								<li><a href="https://talkphr.com">Patient Portal</a></li>
-								<li><a href="#">Wiki</a></li>
-							</ul>
-							<a href="#" class="close">Close</a>
-						</div>
+						<ul class="links">
+							<li><a href="https://lvsportsclinic.com">Home</a></li>
+							<li><a href="https://lvsportsclinic.com/blog">Blog</a></li>
+							<li><a href="https://talkphr.com">Patient Portal</a></li>
+							<li><a href="../services.html">Services</a></li>
+							<li><a href="#">Wiki</a></li>
+						</ul>
+						<!--<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>-->
 					</nav>
 
-				<!-- Wrapper -->
-				<section id="wrapper">
-					<header>
-						<div class="inner">
-							<div class="logo"><span class="icon fa-gem"></span></div>
-							<h2>Las Vegas Sports Clinic Blog</h2>
-						</div>
-					</header>
+				<!-- Main -->
+				<div id="main" class="alt">
 				
-					<!-- Content -->
-					<div class="wrapper">
+					<!-- One -->
+					<section id="one">
 						<div class="inner">
+							<header>
+								<div class="inner">
+									<div class="logo"><h2><span class="icon fa-gem"></span> Las Vegas Sports Clinic Blog</h2></div>
+								</div>
+							</header>
+				
+							<!-- Content -->
 							<div class="content">
 								<center><h2>Contents</h2></center>
 				
@@ -96,7 +96,7 @@
 														</select> &nbsp;&nbsp;
 													</th>
 													<th>
-														<input id="page_tb" type="text" value="1" style="width:50px"> &nbsp;&nbsp;
+														<input id="page_tb" type="text" value="1" style="width:60px"> &nbsp;&nbsp;
 													</th>
 												</tr>
 											</tfoot>
@@ -110,7 +110,7 @@
 									</div>
 				
 									<noselect>
-										<div class="xscroll" style="margin-top: 10px">
+										<div class="xscroll" style="margin-top: -10px; margin-bottom: 10px">
 											<pagebutton onclick="first_page()" title="f key">first</pagebutton> &nbsp;
 											<pagebutton onclick="prev_page()" title="left arrow key">prev</pagebutton> &nbsp;
 											<pagebutton onclick="next_page()" title="right arrow key">next</pagebutton> &nbsp;
@@ -150,16 +150,9 @@
 								<noselect><br><br></noselect>
 							</div>
 						</div>
-					</div>
-				
-					<!-- Four -->
-					<section class="wrapper style4">
-						<div class="inner">
-							<div class="content">
-							</div>
-						</div>
 					</section>
-				</section>
+				</div>
+				
 				
 				<script>
 					var posts_array = [
@@ -336,24 +329,32 @@
 				</script>
 
 				<!-- Footer -->
-					<section id="footer">
+					<footer id="footer">
 						<div class="inner">
-							<div class="footer">
-								<noselect>
-									<div class="footer_text"><b>&copy;&nbsp;2018 - <script>document.write(new Date().getFullYear()%100)</script> <a class="footer_item" href="https://lvsportsclinic.com/">Las Vegas Sports Clinic</a></b></div>
-								</noselect>
-							</div>
+							<center>
+								<ul class="icons">
+									<li><a href="https://twitter.com/lvsportsclinic" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<!--<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>-->
+									<li><a href="https://github.com/lvsportsclinic" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								</ul>
+								<ul class="copyright">
+									<li><b>&copy; 2018-<script>document.write(new Date().getFullYear()%100)</script> <a href="https://lvsportsclinic.com">Las Vegas Sports Clinic</a></b></li>
+								</ul>
+							</center>
 						</div>
-					</section>
+					</footer>
 			</div>
 
 		<!-- Scripts -->
 			<script src="../assets/js/jquery.min.js"></script>
+			<script src="../assets/js/jquery.scrolly.min.js"></script>
 			<script src="../assets/js/jquery.scrollex.min.js"></script>
 			<script src="../assets/js/browser.min.js"></script>
 			<script src="../assets/js/breakpoints.min.js"></script>
 			<script src="../assets/js/util.js"></script>
-			<script src="../assets/js/main-blog.js"></script>
+			<script src="../assets/js/main.js"></script>
 			<script src="../assets/js/process_pre_tags.js"></script>
 			<script src='../assets/js/process_md_blocks.js'></script>
 			<script src="../assets/js/showdown.min.js"></script>

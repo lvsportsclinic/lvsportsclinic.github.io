@@ -2873,6 +2873,14 @@ input, select, textarea {
 
 		}
 
+		@media screen and (max-width: 700px) {
+
+			.tiles article {
+				width: 100% !important;
+			}
+
+		}
+
 		@media screen and (max-width: 736px) {
 
 			.tiles article {
@@ -3706,6 +3714,11 @@ input, select, textarea {
 		}
 
 /* Footer */
+	#footer
+	{
+		background-color: #1c1f3d;
+	}
+
 
 	#footer .copyright {
 		font-size: 0.8em;

@@ -11,14 +11,35 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/blog.css" />
 		<link rel="stylesheet" href="assets/css/pre.css" />
 		
 		<!-- uses google-code-prettify for syntax highlighting
 			 see https://github.com/google/code-prettify for more info -->
 		<script src="https://cdn.jsdelivr.net/gh/google/code-prettify@master/loader/run_prettify.js">
 		</script>
+		
+		<!-- uses MathJax CDC for LaTeX support
+		     see http://docs.mathjax.org/en/latest/start.html for more info -->
+		<!-- <script type="text/x-mathjax-config">
+			MathJax.Hub.Config
+			({
+				extensions: ["tex2jax.js"],
+		    	jax: ["input/TeX", "output/HTML-CSS"],
+				tex2jax: 
+				{
+					inlineMath: [['$','$'], ['\\(','\\)']],
+					displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+					processEscapes: true
+				},
+				"HTML-CSS": { availableFonts: ["MathJax TeX"] }
+			});
+		</script>
+		<script type="text/javascript" 
+			    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js">
+		</script> -->
 	</head>
-	<body class="is-preload">
+	<body class="is-preload" onload="setup()">
 
 		<!-- Wrapper -->
 			<div id="wrapper">
@@ -33,10 +54,10 @@
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
-							<li><a href="index.html">Home</a></li>
-							<li><a href="https://blog.lvsportsclinic.com">Blog</a></li>
+							<li><a href="https://lvsportsclinic.com">Home</a></li>
+							<li><a href="https://lvsportsclinic.com/blog">Blog</a></li>
 							<li><a href="https://talkphr.com">Patient Portal</a></li>
-							<li><a href="https://blog.lvsportsclinic.com">Wiki</a></li>
+							<li><a href="#">Wiki</a></li>
 						</ul>
 						<ul class="actions stacked">
 							<li><a href="#" class="button primary fit">Get Started</a></li>
@@ -523,16 +544,18 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<div class="inner">
-							<ul class="icons">
-								<li><a href="https://twitter.com/lvsportsclinic" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
-								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
-								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
-								<li><a href="https://github.com/lvsportsclinic" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
-								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
-							</ul>
-							<ul class="copyright">
-								<li>&copy; 2019 Las Vegas Sports Clinic</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li><li>Site Manager: <a href="https://nift.cc">Nift</a></li>
-							</ul>
+							<center>
+								<ul class="icons">
+									<li><a href="https://twitter.com/lvsportsclinic" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+									<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+									<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+									<li><a href="https://github.com/lvsportsclinic" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+								</ul>
+								<ul class="copyright">
+									<li><b>&copy; 2018-<script>document.write(new Date().getFullYear()%100)</script> <a href="https://lvsportsclinic.com">Las Vegas Sports Clinic</a></b></li>
+								</ul>
+							</center>
 						</div>
 					</footer>
 			</div>
@@ -546,5 +569,16 @@
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/process_pre_tags.js"></script>
+			<script src='assets/js/process_md_blocks.js'></script>
+			<script src="assets/js/showdown.min.js"></script>
+			<script>
+				var converter = new showdown.Converter();
+				converter.setOption('tables', 'on');
+				converter.setOption('strikethrough', 'on');
+				converter.setOption('emoji', 'on');
+				elements = document.getElementsByClassName('markdown');
+				for(var i=0; i<elements.length; i++)
+					elements[i].innerHTML = converter.makeHtml(elements[i].innerHTML.replace(/&lt;/g, "xwxw").replace(/&gt;/g, "pqpq")).replace(/xwxw/g, "&lt;").replace(/pqpq/g, "&gt;");
+			</script>
 	</body>
 </html>

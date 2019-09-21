@@ -33,3 +33,9 @@ pagebutton:hover
 	color: #a19e97;
 	cursor: pointer;
 }
+
+centerimage
+{
+	width: device-width;
+	height: auto;
+}

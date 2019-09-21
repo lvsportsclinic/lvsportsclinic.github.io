@@ -25,11 +25,18 @@ pagebutton
 	font-size: 1em;
 	margin: 0.25 0.25em;
 	padding: 0.7em 0.65em;
-	line-height: 3;	
+	line-height: 3;
 }
 
 pagebutton:hover
 {
 	color: #a19e97;
 	cursor: pointer;
+}
+
+centerimage
+{
+	width: 100%;
+	max-width: 300px;
+	height: auto;
 }

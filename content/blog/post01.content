@@ -123,6 +123,8 @@
 				<center>
 				  <a href="https://checkout.opennode.co/p/926b214b-1469-4039-a811-7b3c9e8b6d70"><img src="@pathtofile(site/images/btc.logo.webp)" alt=""> Tip if you liked the article! <img src="@pathtofile(site/images/ln.webp)" alt=""></a>
 				</center>
+			<br>
+			<br>
 				<textarea class="markdown">
 						####References
 						1. VanDolah, Harrison J. et al. Clinicians’ Guide to Cannabidiol and Hemp Oils. _Mayo Clinic Proceedings_. 2019; 9:1840-1851.

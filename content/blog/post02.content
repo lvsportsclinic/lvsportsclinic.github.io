@@ -182,7 +182,7 @@
 					  <!-- End of tippin.me Button -->
 					  <br>
 					  <br>
-						<a href="https://checkout.opennode.com/p/926b214b-1469-4039-a811-7b3c9e8b6d70" style="text-decoration: none !important; border:0px !important; outline:none; border-width: 0px; outline-width:0px; border-bottom: none;" target="_blank"><img src="https://app.opennode.com/donate-with-bitcoin.png"/></a>
+						<a href="https://checkout.opennode.co/p/926b214b-1469-4039-a811-7b3c9e8b6d70" style="text-decoration: none !important; border:0px !important; outline:none; border-width: 0px; outline-width:0px; border-bottom: none;" target="_blank"><img src="@pathtofile(site/images/btcbutton.webp)" alt="" /><a>
 			  </center>
 		<br>
 		<br>

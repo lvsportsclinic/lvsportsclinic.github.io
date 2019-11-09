@@ -121,7 +121,13 @@
 						- Hemp _seed_ oil contains no CBD
 				</textarea>
 				<center>
-					<a href="https://checkout.opennode.com/p/926b214b-1469-4039-a811-7b3c9e8b6d70" style="text-decoration: none!important;" target="_blank"><img src="https://app.opennode.com/donate-with-bitcoin.png"/></a>
+					<!-- Beginning of tippin.me Button -->
+							<div id="tippin-button" data-dest="lvsportsclinic"></div>
+							<script src="https://tippin.me/buttons/tip.js" type="text/javascript"></script>
+					<!-- End of tippin.me Button -->
+					<br>
+					<br>
+					<a href="https://checkout.opennode.com/p/926b214b-1469-4039-a811-7b3c9e8b6d70" style="text-decoration: none;" target="_blank"><img src="https://app.opennode.com/donate-with-bitcoin.png"/></a>
 				</center>
 			<br>
 			<br>

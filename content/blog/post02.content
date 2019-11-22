@@ -6,7 +6,7 @@
 			<header>
 				<center>
 					<div class="inner">
-						<div class="logo"><h2>Esports Injuries </h2></div>
+						<div class="logo"><h2>Esports Injuries</h2></div>
 					</div>
 				</center>
 			</header>
@@ -176,13 +176,8 @@
 						Please visit the [Xbox One Healthy Gaming Guide](https://support.xbox.com/en-US/xbox-one/console/healthy-gaming-guide) to review the guide in its entirety.
 				</textarea>
 			  <center>
-					  <!-- Beginning of tippin.me Button -->
-							  <div id="tippin-button" data-dest="lvsportsclinic"></div>
-							  <script src="https://tippin.me/buttons/tip.js" type="text/javascript"></script>
-					  <!-- End of tippin.me Button -->
-					  <br>
-					  <br>
-						<a href="https://checkout.opennode.co/p/926b214b-1469-4039-a811-7b3c9e8b6d70" style="text-decoration: none !important; border:0px !important; outline:none; border-width: 0px; outline-width:0px; border-bottom: none;" target="_blank"><img src="@pathtofile(site/images/btcbutton.webp)" alt="" /><a>
+						<br>
+						<a href="https://checkout.opennode.co/p/926b214b-1469-4039-a811-7b3c9e8b6d70" class="button small">Support Us</a>
 			  </center>
 		<br>
 		<br>

@@ -70,7 +70,7 @@
 					<span class="image">
 						<img src="@pathtofile(site/images/evidence.webp)" alt="" />
 					</span>
-					<header class="major">(702) 956-9238
+					<header class="major">
 						<h3>Evidence Based</h3>
 						<p>We use proven treatments and avoid heavily marketed therapies which have little evidence supporting them.</p>
 					</header>

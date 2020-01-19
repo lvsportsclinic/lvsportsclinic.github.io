@@ -1,0 +1,48 @@
+<!-- Main -->
+<div id="main" class="alt">
+	<!-- One -->
+	<section id="one">
+		<div class="inner">
+			<header>
+				<center>
+					<div class="inner">
+						<div class="logo"><h2>Policies</h2></div>
+					</div>
+				</center>
+			</header>
+			<br>
+			<center>
+
+			</center>
+			<br>
+			<br>
+		<!-- Content -->
+			<div class="content">
+			<br>
+			<br>
+				<textarea class="markdown">
+						1.  We do not prescribe controlled substances. We have no medications on the premises / in our clinic.
+						2.  Las Vegas Sports Clinic is a specialty clinic and cannot serve as your primary care physician.
+						3.  We cannot provide a superbill to provide to any insurance company.  We do not use ICD-10 codes.
+						4.  We do not use health insurance in our practice.
+						5.  Payment is made on the day of the clinic visit.  Payment can be made in cash or by credit or debit card.
+						6.  Please arrive 15 minutes prior to you clinic visit.  If a patient arrives late, we will do our best to accomodate the patient but cannot delay the appointment of another patient who is to be seen next.
+						7.  Please call or send an email within 24 hours if you must cancel an appointment.
+						8.  We do our best to return emails and calls within 24 hours.  Please leave an email address with phone messages as email is the most efficient way for us to get back to you.  Call 911 in the case of a medical emergency.
+						9.  Minors must be accompanied by a parent or guardian at clinic visits and must be present in the exam room during clinic visits, otherwise the clinic visit will have to be rescheduled.
+						10.  Please let us know at least 24 hours in advance if any special accomodations are required for your clinic visit.
+						11.  Decisions regarding procedures, imaging studies such as MRI and others, and all other treatments are made by the physician, who takes responsibility for these decisions.  These decisions are made in the best interests of the patient and are based upon and clinical guidelines and the physician's expert opinion.  We understand that at times, patients may seek studies or treatments with which the physician does not agree.  Patients are free to seek a second opinion in this case if desired.
+						12.  Telemedicine visits are not intended to take the place of an in-person visit.
+						13.  If you are being seen for an injury or health issue which was treated at an ER or another medical facility, please bring records from the other facilities (including xray and MRI reports) to your visit.
+						14.  We cannot provide care for injuries which occured at work.  Please contact your human resources department or supervisor if you have suffered a work related injury.
+						15.  Please inform the physician if you are pregnant or may possibly be pregnant.  Many medications can cause severe injury to the fetus and/or birth defects.  Exposure to radiation from xray or CT scan is known to be harmful to the fetus / can cause birth defects.  If you are not sure if you may be pregnant, please see your primary care physician in order to rule out pregnancy prior to taking any medications or having xray or CT scan done.
+						16.  Call 911 if you are having a medical emergency.
+						17.  We generally will not grant any days off of work.  Please see your primary care physician if you are seeking time off of work.
+						18.  We will not fill out disability paperwork.  Please see your primary care physician.
+
+				</textarea>
+
+			</div>
+		</div>
+	</section>
+</div>

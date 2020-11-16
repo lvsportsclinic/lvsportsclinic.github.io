@@ -137,9 +137,8 @@
       <option value="BTC">BTC</option>
     </select>
   </div>
-<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #0f3b21;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">Support Us</span>
-<img src="https://raz.mywire.org:47931/img/logo.svg" style="height:40px;display:inline-block;padding: 5% 0 5% 5px;">
-</button></form>
+  <input type="image" class="submit" name="submit" src="https://raz.mywire.org:47931/img/paybutton/pay.svg" style="width:146px" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
+</form>
 
 				<!-- <center>
 					<br>
